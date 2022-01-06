@@ -1,0 +1,49 @@
+token =
+owner =
+prefix = "-"
+
+game = "DEFAULT"
+status = ONLINE
+songinstatus=true
+altprefix = "NONE"
+success = "🎶"
+warning = "💡"
+error = "🚫"
+loading = "⌚"
+searching = "🔎"
+help = help
+npimages = false
+stayinchannel = true
+maxtime = 0
+alonetimeuntilstop = 0
+playlistsfolder = "Playlists"
+updatealerts=false
+lyrics.default = "MusicMatch"
+
+aliases {
+  settings = [ status ]
+  lyrics = []
+  nowplaying = [current ]
+  play = [ p ]
+  playlists = []
+  queue = [ list ]
+  remove = [ delete ]
+  scsearch = []
+  search = [ ytsearch ]
+  shuffle = []
+  skip = []
+  prefix = [ setprefix ]
+  setdj = []
+  settc = []
+  setvc = []
+  forceremove = [ forcedelete, modremove, moddelete ]
+  forceskip = [ modskip, fskip, next ]
+  movetrack = [ move ]
+  pause = []
+  playnext = []
+  repeat = [loop]
+  skipto = [ jumpto ]
+  stop = [leave, dc, disconnect]
+  volume = [ vol ]
+}
+eval=false
